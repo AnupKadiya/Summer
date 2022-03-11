@@ -1,0 +1,757 @@
+@media screen and (max-width:1200px) {
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .img_demo{
+        height: auto;
+        width: 100%;
+    }
+}
+@media  screen and (max-width:1101px) 
+{
+    
+    /* This is header menu section */
+    .menu_logo{
+        height: 78px;
+        width: 78px;
+    }
+    .header_btn{
+        letter-spacing: 1.8;
+        font-size: 15px;
+    }
+    .header_search{
+        height: 28px;
+        width: 145px;
+    }
+    .topnav{
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    .header_menu{
+        column-gap: 33px;
+    }
+
+    /* This is header section */
+    .section1{
+        background-position: center center;
+    }
+    .h1_head{
+        font-size: 58px;
+        font-weight: 750;
+    }
+    .top-left{
+        padding-left: 48px;
+    }
+    .btn_head{
+        padding: 6px;
+        width: 145px;
+        line-height: 19px;
+    }
+
+    /* This is (let's go) section 2 */
+    .txt_clr_p{
+        font-size: 48px;
+        letter-spacing: 1.9;
+    }
+    .txt_clr{
+        max-width: 490px;
+        font-size: 15px;
+    }
+    .btn_more{
+        width: 148px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .card_p{
+        font-size: 15px;
+    }
+
+    /* This is DIv4 up-down */
+    .h1_dis{
+        max-width: 290px;
+        font-weight: 780;
+        font-size: 23px;
+    }
+    .p_dis{
+        font-size: 17px;
+    }
+    .btn_dis{
+        width: 145px;
+        font-weight: 780;
+        line-height: 23px;
+        margin-left: -180px;
+    }
+    /* This is Div 5 (hiking in mountain)  */
+    .div5_h2{
+        font-size: 23px;
+    }
+    .div5_p{
+        font-size: 15px;
+    }
+
+    /* This is Div 6 (explore world) */
+    .div6{
+        height: 890px;
+    }
+    .div6_p{
+        font-size: 48px;
+    }
+    .div6_pa{
+        font-size: 48px;
+    }
+
+    /* This is Div 7 */
+    .div7_header{
+        font-size: 19px;
+
+    }
+    .div7_p{
+        font-size: 17px;
+        max-width: 290px;
+    }
+
+    /* This is Div 9 */
+    .div9a h1{
+        font-size: 38px;
+    }
+    .div9_inp{
+        height: 28px;
+        width: auto;
+    }
+    .div9_btn{
+        width: 95px;
+        height: 29px;
+        letter-spacing: 1.8;
+    }
+    /* This is Div 10 */
+    .div10a h4{
+        font-size: 19px;
+    }
+   
+    .footer_p{
+        font-size: 15px;
+    }
+    .footer_h4{
+        font-size: 19px;
+    }
+    .footer_a{
+        font-size: 15px;
+    }
+   
+   
+}
+@media  screen and (max-width:1024px) {
+    /* Header Menu */
+    .menu_logo{
+        height: 75px;
+        width: 75px;
+    }
+    
+    .header_menu{
+        column-gap: 32px;
+    }
+    .header_btn{
+        font-size: 14px;
+        letter-spacing: 1.6;
+    }
+    .header_search{
+        height: 26px;
+        width: 140pxs;
+    }
+    /* Section 1  */
+    .section{
+        background-position: center;
+        height: 800px;
+    }
+    .top-left{
+        padding-left: 45px;
+    }
+    .h1_head{
+        font-size: 56px;
+        font-weight: 750;
+    }
+    .p_head{
+        letter-spacing: 1.6;
+    }
+    .btn_head{
+        padding: 5px;
+        width: 140px;
+        line-height: 18px;
+    }
+    /* section 2 */
+    .txt_clr_p{
+        font-size: 47px;
+        letter-spacing: 1.8;
+    }
+    .txt_clr{
+        max-width: 480px;
+        font-size: 14px;
+    }
+    .card_p{
+        font-size: 14px;
+    }
+   
+    .btn_more{
+        width: 145px;
+        height: 33px;
+        font-size: 13px;
+    }
+
+    /* section 3 */
+    .h1_dis{
+        max-width: 280px;
+        font-weight: 770;
+        font-size: 22px;
+    }
+    .p_dis{
+        font-size: 16px;
+    }
+    .btn_dis{
+        width: 140px;
+        font-weight: 750;
+        line-height: 22px;
+        margin-left: -160px;
+    }
+    .div5_h2{
+        font-size: 22px;
+    }
+    .div5_p{
+        font-size: 14px;
+    }
+    /* Div 6 */
+    
+    .div6_p{
+        font-size: 46px;
+    }
+    .div6_pa{
+        font-size: 46px;
+    }
+
+    /* div 7 */
+    .div7_header{
+        font-size: 18px;
+    }
+    .div7_p{
+        font-size: 16px;
+        max-width: 280px;
+    }
+    /* div 8 */
+    .div8_p{
+        max-width: 400px;
+    }
+    .div8_header{
+        font-size: 18px;
+    }
+    /* div 9 */
+    .div9a h1{
+        font-size: 37px;
+    }
+    .div9_inp{
+        height: 27px;
+        width: auto;
+    }
+    .div9_btn{
+        width: auto;
+        height: auto;
+        letter-spacing: 1.7;
+        padding: 3px;
+    }
+    
+    /* Div 10 */
+    .div10a h4{
+        font-size: 18px;
+    }
+    .footer_p{
+        font-size: 14px;
+        max-width: 300px;
+    }
+    .div10a_2{
+        padding-left: 0;
+        padding-right: 50px;
+    }
+    .flex-item-2{
+        margin: 20px;
+    
+    }
+    
+ 
+    .footer_h4{
+        font-size: 18px;
+    }
+    .footer_a{
+        font-size: 14px;
+    }
+}
+@media  screen and (max-width:901px) {
+    .para{
+        font-size: 33px;
+    }
+    
+}
+@media  screen and (max-width:950px) {
+    .head_p{
+        max-width: 350px;
+    }
+    .div6_p{
+        margin-right: 50px;
+    }
+    .div6_pa{
+        margin-right: 50px;
+    }
+    .para{
+        font-size: 34px;
+    }
+    
+}
+@media screen and (max-width:851px) {
+    .txt_clr{
+        padding-bottom: 0;
+    }
+    .txt_clr_res{
+        padding-bottom: 100px;
+    }    
+    .div10a_2{
+        padding-right: 30px;
+    }
+    .para{
+        font-size: 30px;
+    }
+    .paragraph{
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width:801px) {
+    .section1{
+        background-image: none;
+        background-color: rgba(211,207,201,255);
+
+    }
+    .para{
+        font-size: 28px;
+    }
+    .paragraph{
+        padding-right: 0;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    
+}
+ @media  screen and (max-width:768px) 
+    {   
+        .row{
+            flex-wrap: wrap;
+        }
+        .search_class{
+            display: none;
+            }
+            .header_menu{
+                display: none;
+            }
+            .header_btn{
+                display: block;
+            }
+            .menu-open .omni-mobile-menu{
+                display: block;
+            }
+        
+            .column_demo{
+                width: 100%;
+            }
+        /* header mennu */
+        .menu_logo{
+            width: 60px;
+            height: 60px;
+        }
+        /* Section 1  */
+        .section1::before{
+            display: none;
+          
+        }
+        .section1::after{
+            display: none;
+        }
+        .div5::before,.div6::before,.div5::after,.div6::after,.div9::before,.div9::after,.div10::before{
+            display: none;
+        }
+        
+        .section1{
+            background-image: none;
+            background-color: rgba(211,207,201,255);
+            height: auto;
+        
+        }
+        
+        .fitem_2, .fitem_4 {
+            padding-top: 30%;
+        }
+        .div5{
+            height: auto;
+            padding: 40 0 40 0px;
+            margin-top: 5px;
+        }
+        .div6{
+            background-image: none;
+            background-color: rgba(181,195,206,255);
+            height: 100%;
+
+        }
+        .h1_head{
+            font-size: 50px;
+            font-weight: 700;
+        }
+        .btn_head{
+            padding: 4px;
+            width: 135px;
+            line-height: 16px;
+        }
+        .head_p{
+            max-width: 300px;
+        }
+        /* div 2 */
+        .txt_clr_p{
+            font-size: 45px;
+            letter-spacing: 1.6;
+        }
+        .txt_clr{
+            max-width: 450px;
+            font-size: 13px;
+        }
+        .card_p{
+            font-size: 13px;
+        }
+        .btn_more{
+            width: 140px;
+            height: 30px;
+            font-size: 12px;
+        }
+        .h1_dis{
+            max-width: 270px;
+            font-weight:750;
+            font-size: 21px;
+
+        }
+        .p_dis{
+            font-size: 14px;
+        }
+        .btn_dis{
+            width: 130px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-left: auto;
+        }
+        .div5_h2{
+            font-size: 21px;
+
+        }
+        .div5_p{
+            font-size: 13px;
+        }
+        .div6{
+            text-align: center;
+            height: auto;
+            align-items: end;
+            padding: 60 0 60 0px;
+            margin-top: 5px;
+        }
+        .div6_p{
+            font-size: 44px;
+            text-align: center;
+            margin-right: 0;
+        }
+        .div6_pa{
+            font-size: 44px;
+            margin-right: 0;
+        }
+        .div7a {
+            width: auto;
+        }
+        .div7_header{
+            font-size: 17px;
+        }
+        .div7_p{
+            font-size: 15px;
+            max-width: 250px;
+        }
+        .quote{
+            font-size: 90px;
+            font-weight: 700;
+        }
+        .div8a{
+            height: auto;
+            padding-bottom: 40px;
+        }
+        .div9{
+            height: auto;
+        }
+        .txt_clr{
+            padding-bottom: 0;
+        }
+        .txt_clr_res{
+            padding-bottom: 100px;
+
+        }
+        .div8_p{
+            max-width: 380px;
+        }
+        .div8_header{
+            font-size: 17px;
+        }
+        .div9a h1{
+            font-size: 35px;
+        }
+        .div9_inp{
+            height: 25px;
+            width: auto;
+        }
+        .div9_btn{
+            width: auto;
+            height: 26px;
+            letter-spacing: 1.5;
+            padding: 2px;
+          
+        }
+        .div10{
+            margin-top: 5px;
+        }
+        .div10a_2{
+           padding-top: 0px;
+           width: auto;
+           height: auto;
+            padding-left: 0px;
+            padding-right: 0;
+            
+        }
+        .div10a{
+            padding-left: 0;
+            padding-top: 0;
+            width: auto;
+            height: auto;
+        }
+        .topnav{
+            padding-bottom: 15px;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 15px;
+        }
+        .para{
+            font-size: 26px;
+        }
+        .paragraph{
+            padding-left: 25px;
+        }
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 9;
+          }
+          .toggle-btn{
+            top: 30px;
+            position: fixed;
+        }
+        .col-3{
+            width: auto;
+            margin-bottom: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .flex-item-1,.flex-item-2,.flex-item-3,.flex-item-4{
+            margin: 0;
+            padding: 5px;
+        }
+        
+       .fitem_2,.fitem_4{
+           padding-top: 10;
+           padding-bottom: 20%;
+       }
+       .col-demo{
+           order: 1;
+       }
+       .col-demo , .col-demo1{
+           transform: translateY(0px);
+       }
+       .btn_div{
+           margin-left: auto;
+           margin-right: auto;
+           padding-left: 0;
+       }
+    }
+    @media screen and (max-width:650px) 
+    {   
+        .menu_logo{
+            width: 55px;
+            height: 55px;
+        }
+        .h1_head{
+            font-size: 45px;
+        }  
+        .head_p{
+            max-width: 280px;
+            
+        } 
+        .btn_head{
+            width: 130px;
+            
+        }
+        .txt_clr_p{
+            font-size: 42px;
+        }
+    }
+    
+    @media screen and (max-width:600px) 
+    {
+        .menu_logo{
+            width: 52.5px;
+            height: 52.5px;
+        } 
+        .h1_head{
+            font-size: 42.5px;
+        }
+        .head_p{
+            max-width: 250px;
+        }
+        .txt_clr_p{
+            font-size: 40px;
+        }
+    }
+    @media screen and (max-width:550px) 
+    {
+        .menu_logo{
+            width: 50px;
+            height: 50px;
+        } 
+        .h1_head{
+            font-size: 40px;
+        }
+        .head_p{
+            max-width: 230px;
+        }
+        .txt_clr_p{
+            font-size: 38px;
+        }
+        .div6_p, .div6_pa{
+            font-size: 42px;
+        }
+    }
+    @media screen and (max-width:500px) 
+    {
+        
+        .h1_head{
+            font-size: 38px;
+        }
+        .head_p{
+            max-width: 200px;
+        }
+        .txt_clr_p{
+            font-size: 36px;
+        }
+        .div6_p, .div6_pa{
+            font-size: 40px;
+        }
+    }
+    @media screen and (max-width:475px) 
+    {
+        
+        .h1_head{
+            font-size: 36px;
+        }
+        .head_p{
+            max-width: 180px;
+        }
+        .txt_clr_p{
+            font-size: 34px;
+        }
+        .div6_p, .div6_pa{
+            font-size: 38px;
+        }
+        .section1{
+            margin-top: 10px;
+        }
+    }
+    @media screen and (max-width:450px) 
+    {
+        
+        .h1_head{
+            font-size: 34px;
+        }
+        .head_p{
+            max-width: 170px;
+        }
+        .txt_clr_p{
+            font-size: 32px;
+        }
+        .div6_p, .div6_pa{
+            font-size: 36px;
+        }
+    }
+    @media screen and (max-width:425px) 
+    {
+        
+        .h1_head{
+            font-size: 32px;
+        }
+        .head_p{
+            max-width: 160px;
+        }
+        .txt_clr_p{
+            font-size: 30px;
+        }
+        .div6_p, .div6_pa{
+            font-size: 34px;
+        }
+    
+    }
+    @media screen and (max-width:400px) 
+    {
+        
+        .h1_head{
+            font-size: 25px;
+            
+        }
+        .head_p{
+            max-width: 150px;
+            padding-bottom: 5px;
+        }
+        .txt_clr_p{
+            font-size: 30px;
+        }
+        .div6_p, .div6_pa{
+            font-size: 30px;
+        }
+       
+    
+    }
+    @media screen and (max-width:375px) 
+    {
+        
+        .h1_head{
+            font-size: 20px;
+            
+        }
+        .head_p{
+            max-width: 200px;
+            
+        }
+        .txt_clr_p{
+            font-size: 28px;
+        }
+        .div6_p, .div6_pa{
+            font-size: 30px;
+        }
+        
+       
+    
+    }
+    @media screen and (max-width:575px) 
+    {
+        .div7_p{
+            max-width: 100%;
+        }   
+    }
+    @media screen and (max-width:673px) 
+    {
+         .div10a_2 , .flex-item-2, .flex-item-3, .flex-item-4{
+            display: none;
+        }   
+    }

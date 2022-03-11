@@ -1,0 +1,431 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+        This is First Task
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- <link rel="stylesheet"  href="/fontawesome-free-6.0.0-web/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- <link rel="stylesheet" href="/css/mobile-menu.css"> -->
+    <link rel="shortcut icon" href="#">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <style>
+        html,
+        body {
+            font-family: sans-serif;
+            font-size: 16px;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .content {
+            padding: 60px 40px;
+        }
+    </style>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            var accordionOpen = $('.first_depth p'),
+                secondDepth = $('.second_depth');
+
+            accordionOpen.on('click', function () {
+                accordionOpen.closest('.first_depth').removeClass('on');
+                $(this).closest('.first_depth').addClass('on');
+
+            });
+        });
+    </script>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <div class="topnav" id="myHeader">
+
+
+                <div class="logo">
+
+                    <a href="#"><img src="task1/images/logo.png" alt="This is logo image" class="menu_logo"></img></a>
+
+                </div>
+                <div>
+                    <ul class="omni-mobile-menu">
+                        <li><a href="#" class="header_btn"> HOME</a></li>
+                        <li><a href="#" class="header_btn">MENU</a></li>
+                        <li><a href="#" class="header_btn"> OUR STORY</a></li>
+                        <li><a href="#contact" class="header_btn">CONTACT US</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="header_menu">
+
+                    <a href="#" class="header_btn"> HOME</a>
+                    <a href="#" class="header_btn">MENU</a>
+                    <a href="#" class="header_btn"> OUR STORY</a>
+                    <a href="#contact" class="header_btn">CONTACT US</a>
+
+                    <div class="search_class">
+                        <input type="text" class="header_search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <!-- toggle button code start  -->
+                <div class="toggle-btn">
+                    <div class="hamburger-icon">
+                        <svg class="hamburger" viewBox="0 0 100 100" id="hamburger" fill="currentcolor">
+                            <path class="line top"
+                                d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                            <path class="line middle" d="m 30,50 h 40" />
+                            <path class="line bottom"
+                                d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- toggle button end -->
+
+
+
+            </div>
+        </div>
+
+
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="section1">
+            <img src="task1/images/slid.png" alt="" class="sec_img">
+            <div class="top-left">
+                <h1 class="h1_head">IT'S TIME <br> FOR HIKING</h1>
+
+                <P class="p_head"><i>LOREMIPSUM DOLOR</i></P>
+                <a href="#" class="header_a btn_head">READ MORE</a>
+                <p class="head_p"> Lorem ipsum dolor sit amt
+                    ipsum praesentium totam! Enim odio rerum doloribus. Commodi laborum expedita vel neque
+                    dolorum
+                    dicta asperiores fugiat.
+                </p>
+            </div>
+    </section>
+    </div>
+
+    <div class="container">
+        <div class="container-body">
+            <p class="txt_clr_p fitem-1">
+                LET<i>'</i>s GO</p>
+            <p class="txt_clr fitem-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum, dolor sit
+                amet
+                consectetur adipisicing elit</p>
+
+            <div class="row">
+                <div class="col-3" id="item-1">
+
+                    <div class="card">
+                        <img src="task1/images/Pl1.png" alt="Avatar" class="img_class">
+                        <div class="container2">
+                            <p class="card_p"><b>Lorem ipsum</b></p><br>
+                            <p class="card_p"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-3" id="item-2">
+                    <div class="card">
+                        <img src="task1/images/Pl2.png" alt="Avatar" class="img_class">
+                        <div class="container2">
+                            <p class="card_p">Lorem ipsum</p><br>
+                            <p class="card_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-3" id="item-3">
+                    <div class="card">
+                        <img src="task1/images/Pl3.png" alt="Avatar" class="img_class">
+                        <div class="container2">
+                            <p class="card_p">Lorem ipsum</p><br>
+                            <p class="card_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="txt_clr txt_clr_res">
+                <br><br>
+                <a href="#" class="btn_more">SHOW MORE</a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row_1">
+            <div class="column_demo">
+
+                <img src="task1/images/dis1.png" class="img_demo">
+
+            </div>
+            <div class="column_demo col-demo1">
+                <div class="fitem_2">
+
+
+                    <h4 class="para">Discount upto 30% <br> All Exclusion</h4> 
+                    <p class="paragraph">Lorem ipsum
+                        dolor sit amet
+                        consectetur adipisicing elit. Reprehenderit quibusdam corrupti, aut molestias porro tenetur quae
+                        aspernatur voluptate eveniet
+                        magni! Itaque!</p> 
+                    <div class="btn_div">
+                        <a href="" style="background-color: rgba(227,163,85,255);" class="btn_more">Show More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row_2">
+            <div class="column_demo col-demo">
+                <div class="fitem_4">
+                    <h4 class="para">Discount upto 30% <br> All Exclusion</h4>
+                    <p class="paragraph">Lorem ipsum
+                        dolor sit amet
+                        consectetur adipisicing elit. Reprehenderit quibusdam corrupti, aut molestias porro tenetur quae
+                        aspernatur voluptate eveniet</p> 
+                    <div class="btn_div">
+                        <a href="#" class="btn_more" style="background-color: rgba(227,163,85,255);"> Show More</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="column_demo">
+                <img src="task1/images/dis2.png" class="img_demo">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <section class="div5">
+
+            <div>
+                <h2 class="div5_h2">
+                    Hiking in Mountains
+                </h2>
+                <p class="div5_p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsam dolorem
+                    explicabo itaque nostrum deleniti nesciunt, laborum quos odit quibusdam
+                    expedita animi nam blanditiis id sequi. Dolor ad eaque nulla.
+                </p>
+            </div>
+
+        </section>
+    </div>
+    <div class="container">
+        <section class="div6">
+            <img src="task1/images/explore.png" alt="" style="position: absolute;" />
+            <div class="descri">
+                <p class="div6_p">
+                    <i>EXPLORE</i>
+                </p>
+
+                <p class="div6_pa"><i>THE WORLD</i></p>
+            </div>
+
+        </section>
+    </div>
+    <div class="container">
+        <section class="div7">
+
+            <div class="div7a">
+                <p class="div7_header">Lorem Ipsum</p>
+                <p class="div7_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. nostrum deleniti
+                    nesciunt,
+                    laborum quos odit quibusdam</p>
+            </div>
+            <div class="div7a">
+                <p class="div7_header">Lorem Ipsum</p>
+                <p class="div7_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. nostrum deleniti
+                    nesciunt,
+                    laborum quos odit quibusdam</p>
+
+            </div>
+            <div class="div7a">
+                <p class="div7_header">Lorem Ipsum</p>
+                <p class="div7_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. nostrum deleniti
+                    nesciunt,
+                    laborum quos odit quibusdam</p>
+
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section class="div8">
+            <div class="div8a">
+                <i><q class="quote"></q></i>
+                <p class="div8_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius ipsam dolorem
+                    explicabo itaque nostrum deleniti nesciunt, laborum quos odit quibusdam
+                    expedita animi nam blanditiis id sequi. </p>
+                
+                <b>
+                    <h3 class="div8_header">Lorem Ipsum</h3>
+                </b>
+            </div>
+
+        </section>
+    </div>
+    <div class="container">
+        <section class="div9" id="contact">
+            <div class="div9a">
+                <h1>Title Here</h1>
+                <p class="div9_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, obcaecati
+                    tempora
+                    harum nam, earum
+                    aspernatur a praesentium dolore
+                </p>
+                <div class="div9_subscription">
+                    <input class="div9_inp" type="email" placeholder="Your mail"><a href="#" style="position: relative;"
+                        class="div9_btn">
+                        SUBSCRIBE</a>
+                </div>
+
+
+            </div>
+
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <section class="div10">
+
+
+                <div class="wrap">
+                    <div class="upper_side contents">
+                        <ul class="flex">
+                            <li class="first_depth">
+                                <p class="title">Title Here</p>
+                                <ul class="second_depth">
+
+                                    <li>
+                                        <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            elit. Laborum, obcaecati
+                                            tempora harum nam,
+                                            earum
+                                            aspernatur a praesentium dolore molestias commodi nobis fuga eveniet aliquam
+                                        </p>
+                                    </li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a> <a href="#"><i
+                                                class="fa-brands fa-twitter"></i></a> <a href="#"><i
+                                                class="fa-brands fa-instagram"></i></a> <a href="#"><i
+                                                class="fa-solid fa-globe"></i></a></li>
+
+                                </ul>
+                            </li>
+                            <li class="first_depth">
+                                <p class="title">About</p>
+                                <ul class="second_depth">
+
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Brand Guidelines</a></li>
+                                    <li><a href="#">Tearms & Condition</a></li>
+                                    <li><a href="#">Privacy Policy </a></li>
+                                </ul>
+                            </li>
+                            <li class="first_depth">
+                                <p class="title">Services</p>
+                                <ul class="second_depth">
+                                    <li><a href="#">How to Order</a></li>
+                                    <li><a href="#">Our Product</a></li>
+                                    <li><a href="#">Order Status</a></li>
+                                    <li><a href="#">Promo</a></li>
+                                    <li><a href="#">PaymentMethod</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="first_depth">
+                                <p class="title">Others</p>
+                                <ul class="second_depth">
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Help</a></li>
+                                    <li><a href="#">Privacys</a></li>
+
+                                </ul>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+
+                </div>
+                <!-- Responsive code start -->
+
+
+                <!-- Responsive code end -->
+            </section>
+        </div>
+
+
+    </footer>
+
+
+    <script src="./js/mobile-menu.js"></script>
+    <script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function () { myFunction() };
+
+        // Get the header
+        var header = document.getElementById("myHeader");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</head>
+
+
+
+</html>
